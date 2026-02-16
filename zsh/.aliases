@@ -1,0 +1,41 @@
+# =========================
+# Navigation
+# =========================
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# =========================
+# Listing
+# =========================
+alias ll="ls -lah"
+alias la="ls -A"
+alias l="ls -CF"
+
+# =========================
+# Git
+# =========================
+alias g="git"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gca="git commit --amend"
+alias gp="git push"
+alias gl="git pull"
+alias gd="git diff"
+alias gco="git checkout"
+alias gb="git branch"
+alias logs="git log --oneline --graph --decorate --all"
+
+# =========================
+# Docker
+# =========================
+alias d="docker"
+alias dc="docker compose"
+alias dcu="docker compose up"
+alias dcd="docker"
+
+# -------------------
+# Custom
+# -------------------
+alias acta="act --container-architecture linux/amd64"
